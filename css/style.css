@@ -649,7 +649,7 @@ body {
 
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 430px) {
     /* Styles for medium-sized phones */
     .header-logo-container {
         position: relative;
