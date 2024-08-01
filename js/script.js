@@ -170,6 +170,7 @@ project1.addEventListener("mouseover", function(){
     projectName.style.width = "200px"
     const otherInfo = document.querySelector(".project1-other-info")
     otherInfo.style.opacity = "1";
+    otherInfo.style.display = "block";
 })
 
 project1.addEventListener("mouseout", function(){
@@ -179,6 +180,7 @@ project1.addEventListener("mouseout", function(){
     projectName.style.left = "50%"
     const otherInfo = document.querySelector(".project1-other-info")
     otherInfo.style.opacity = "0"
+    otherInfo.style.display = "none";
 })
 
 project2.addEventListener("mouseover", function(){
@@ -188,6 +190,7 @@ project2.addEventListener("mouseover", function(){
     projectName2.style.transition = "left 1s ease"
     const otherInfo2 = document.querySelector(".project2-other-info")
     otherInfo2.style.opacity = "1"
+    otherInfo2.style.display = "block";
 })
 
 project2.addEventListener("mouseout", function(){
@@ -198,6 +201,7 @@ project2.addEventListener("mouseout", function(){
     const otherInfo2 = document.querySelector(".project2-other-info")
     otherInfo2.style.opacity = "0"
     otherInfo2.style.transition = "opacity 0.1s ease"
+    otherInfo2.style.display = "none";
 })
 
 project3.addEventListener("mouseover", function(){
@@ -207,6 +211,7 @@ project3.addEventListener("mouseover", function(){
     projectName3.style.transition = "left 1s ease"
     const otherInfo3 = document.querySelector(".project3-other-info")
     otherInfo3.style.opacity = "1"
+    otherInfo3.style.display = "block";
 })
 
 project3.addEventListener("mouseout", function(){
@@ -216,6 +221,7 @@ project3.addEventListener("mouseout", function(){
     projectName3.style.left = "50%"
     const otherInfo3 = document.querySelector(".project3-other-info")
     otherInfo3.style.opacity = "0"
+    otherInfo3.style.display = "none";
 })
 
 const footerHome = document.querySelector(".footer-link-home")
